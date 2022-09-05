@@ -11,7 +11,8 @@ module.exports = {
     colors:{
       'primary' : '#8155FF',
       'dark'  : '#4C4C54',
-      'secondary' : '#F8F5FF'
+      'secondary' : '#F8F5FF',
+      'footer-dark': '#061E30',
     }, 
     container: {
       padding: {

@@ -8,8 +8,8 @@
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 </head>
 
-<header class="pt-10 lg:pt-6 shadow-sm lg:shadow-none">
-    <nav class="bg-white border-gray-200 py-2.5 rounded px-4">
+<header class="bg-white  shadow-sm lg:shadow-none  w-full fixed z-10">
+    <nav class="border-gray-200 py-2.5 rounded px-4 ">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
             <a href="#" class="flex items-center lg:text-2xl tracking-wide text-lg font-semibold text-primary">
                 Naladhipa Course
@@ -33,11 +33,11 @@
                 <ul
                     class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white ">
                     <li>
-                        <a href="#home" class="block py-2 pl-3 pr-4 text-base text-primary md:text-primary md:p-0"
+                        <a href="#" class="block py-2 pl-3 pr-4 text-base text-primary md:text-primary md:p-0"
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#about"
+                        <a href="#"
                             class="block py-2 pl-3 pr-4 text-base text-gray-700 md:hover:text-purple-700 md:p-0">About</a>
                     </li>
                     <li>
@@ -62,7 +62,7 @@
 
 <body class="antialiased ">
 
-    <section id="home" class="max-w-full pt-24 pb-20 lg:pt-28 md:pt-20 lg:pb-36">
+    <section id="#" class="max-w-full pt-24 pb-20 lg:pt-28 md:pt-20 lg:pb-36">
         <div class="container mx-auto ">
             <div class="flex flex-wrap">
                 <div class="self-center w-full lg:px-0 px-4 lg:w-1/2">
@@ -348,7 +348,48 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="w-full bg-footer-dark py-10 lg:py-20" id="footer">
+        <div class="container mx-auto">
+            <div class="flex-wrap justify-between lg:flex">
+                <div class="lg:w-4/12 self-start pr-32  py-3">
+                    <h1 class="text-white text-2xl lg:text-4xl font-semibold mb-3">Naladhipa Courses</h1>
+                    <p class="text-white  text-base lg:text-lg font-regular">Merupakan bimbel bahasa inggris yang
+                        menghadirkan konsep
+                        fun learning dalam pembelajarannya</p>
+                </div>
+                <div class="py-3 lg:w-2/12">
+                    <h1 class="text-white  font-semibold text-2xl lg:text-4xl mb-2">Follow us
+                    </h1>
+                    <ul class="flex-wrap flex flex-col space-y-1">
+                        <li>
+                            <a href="" class="text-white text-lg">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white text-lg">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="py-3 lg:w-2/12">
+                    <h1 class="text-white  font-semibold text-2xl lg:text-4xl mb-2">Kelas
+                    </h1>
+                    <ul class="flex-wrap flex flex-col space-y-1">
+                        <li>
+                            <a href="" class="text-white text-lg">Offline Class</a>
+                        </li>
+                        <li>
+                            <a href="" class="text-white text-lg">Online Class</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" py-3 lg:w-3/12">
+                    <h1 class="text-white text-2xl lg:text-4xl font-semibold mb-2">Alamat</h1>
+                    <p class="text-white text-semibold text-lg lg:text-2xl">Kendondong Kidul 1 / 26 D, Surabaya Jawa
+                        Timur, Indonesia
+                    </p>
+                    <p class="text-white text-lg font-medium">081703876554</p>
+                </div>
+            </div>
+        </div>
 
     </footer>
 </body>
