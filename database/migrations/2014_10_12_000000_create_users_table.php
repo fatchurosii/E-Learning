@@ -15,11 +15,11 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->nullable();
-            $table->string('email')->unique()->nullable();
-            $table->string('password')->nullable();
-            $table->integer('status')->default('0')->nullable();
-            $table->foreignId('id_role')->nullable()->index('fk_users_to_role');
+            $table->string('name');
+            $table->string('email')->unique();
+            $table->string('password');
+            $table->integer('status')->default('0');
+            $table->foreignId('id_role')->index('fk_users_to_role');
             $table->softDeletes();
             $table->rememberToken();
             $table->timestamps();
