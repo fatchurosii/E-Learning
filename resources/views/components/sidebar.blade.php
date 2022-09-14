@@ -10,7 +10,7 @@
 
             {{-- Menu Siswa --}}
             <button type="button"
-                class="mb-4  py-2.5 px-4 hover:bg-primary hover:text-white rounded-md cursor-pointer flex items-center gap-x-3"aria-controls="dropdown-example"
+                class="mb-4  py-2.5 px-4  hover:bg-primary hover:text-white rounded-md cursor-pointer flex items-center gap-x-3"aria-controls="dropdown-example"
                 data-collapse-toggle="dropdown-example"><svg class="w-6 h-6" fill="none" stroke="currentColor"
                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
@@ -42,7 +42,7 @@
             </ul>
             {{-- Menu Mentor --}}
             <a href=""
-                class="mb-4  py-2.5 px-4  hover:bg-primary hover:text-white rounded-md cursor-pointer flex items-center gap-x-3"><svg
+                class="mb-4 py-2.5 px-4  hover:bg-primary hover:text-white rounded-md cursor-pointer flex items-center gap-x-3"><svg
                     class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

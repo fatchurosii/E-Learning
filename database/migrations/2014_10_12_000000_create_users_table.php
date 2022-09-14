@@ -18,10 +18,9 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
-            $table->integer('status')->default('0');
+            $table->integer('status')->default(0);
             $table->foreignId('id_role')->index('fk_users_to_role');
             $table->softDeletes();
-            $table->rememberToken();
             $table->timestamps();
         });
     }

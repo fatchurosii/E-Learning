@@ -2168,6 +2168,16 @@ body{
   --tw-ring-opacity: 0.5;
 }
 
+.active\:bg-primary:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(129 85 255 / var(--tw-bg-opacity));
+}
+
+.active\:text-white:active {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .group:hover .group-hover\:text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
