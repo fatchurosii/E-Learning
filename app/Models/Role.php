@@ -11,6 +11,14 @@ class Role extends Model
 {
     use HasFactory, SoftDeletes;
 
+
+
+
+    protected $date = [
+        'updated_at',
+        'created_at'
+    ];
+
     protected $fillable = [
         'name'
     ];
